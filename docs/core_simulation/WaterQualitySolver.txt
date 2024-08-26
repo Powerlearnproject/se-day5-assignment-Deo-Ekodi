@@ -1,0 +1,9 @@
+Component: QualitySolver
+Responsibilities:
+Analyzes the quality of wastewater, including pollutant concentrations, chemical reactions, and contaminant transport.
+Simulates the interaction between different pollutants and their impact on overall water quality.
+Key Functions:
+computeConcentration(): Calculates the concentration of pollutants in different parts of the system.
+modelReactions(): Models chemical reactions that occur within the wastewater (e.g., oxidation, nitrification).
+transportContaminants(): Simulates the movement and dispersion of contaminants throughout the network.
+updateQualityState(): Updates the water quality state within the WastewaterModel.

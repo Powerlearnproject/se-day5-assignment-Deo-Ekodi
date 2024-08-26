@@ -1,0 +1,8 @@
+Component: CommandLineUI
+Responsibilities:
+Provides a text-based interface for interacting with the simulation software.
+Allows users to input commands, adjust parameters, and view results directly from the terminal.
+Key Functions:
+startSimulation(): Initiates the simulation process based on user input.
+adjustParameters(): Allows users to modify simulation parameters during runtime.
+displayResults(): Presents the results of the simulation in a readable format.

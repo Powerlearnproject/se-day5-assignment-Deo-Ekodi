@@ -1,0 +1,8 @@
+Component: BoundaryConditions
+Responsibilities:
+Defines and manages the conditions at the boundaries of the system, such as inflows, outflows, and external pressures.
+Ensures that the simulation accurately reflects the real-world scenario by applying these conditions consistently.
+Key Functions:
+setInflowCondition(): Defines the inflow conditions at the entry points of the wastewater system.
+setOutflowCondition(): Defines the outflow conditions at the exit points of the wastewater system.
+applyExternalForces(): Considers external forces such as atmospheric pressure or external pumping that affect the system.

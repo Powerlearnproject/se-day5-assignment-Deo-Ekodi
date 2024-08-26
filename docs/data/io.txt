@@ -1,0 +1,18 @@
+Component: InputHandler
+Responsibilities:
+Manages the reading and parsing of input data required to initialize the simulation.
+Handles input files that define the system's configuration, including pipe properties, initial conditions, and boundary conditions.
+Key Functions:
+readConfigFile(): Reads and parses the configuration file to extract simulation parameters.
+loadInitialConditions(): Loads initial conditions for the simulation, such as starting flow rates and pollutant levels.
+validateInputData(): Ensures that input data is valid and within expected ranges.
+
+
+Component: OutputHandler
+Responsibilities:
+Manages the output of simulation results, including saving data to files and generating reports.
+Ensures that the results are stored in a format that is accessible and understandable by the user.
+Key Functions:
+writeResultsToFile(): Saves simulation results to a file in a specified format (e.g., CSV, JSON).
+generateReport(): Produces a summary report of the simulation, highlighting key findings and results.
+exportVisualizationData(): Prepares data for visualization, allowing users to create graphs or maps of the results.

@@ -1,0 +1,8 @@
+Component: GraphicalUI (Optional)
+Responsibilities:
+Provides a graphical user interface for users who prefer visual interaction with the simulation software.
+Facilitates interaction with the simulation through buttons, sliders, and graphical displays.
+Key Functions:
+renderGraphs(): Visualizes the simulation results through graphs and charts.
+interactiveControls(): Allows users to control the simulation (e.g., start, stop, adjust parameters) using GUI elements.
+displayMaps(): Shows a spatial representation of the wastewater system and simulation results.

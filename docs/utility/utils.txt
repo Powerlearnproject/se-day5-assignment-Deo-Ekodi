@@ -1,0 +1,22 @@
+Component: SimulationUtils
+Responsibilities:
+Provides general-purpose utility functions that support the core simulation components.
+Includes mathematical tools, data validation routines, and performance optimization methods.
+Key Functions:
+interpolateData(): Performs interpolation for data points where values are missing or need to be estimated.
+validateParameters(): Checks that simulation parameters are within acceptable ranges.
+optimizePerformance(): Implements strategies for optimizing the performance of the simulation, especially for large datasets.
+Component: Pipe
+Responsibilities:
+Represents a single pipe within the wastewater network.
+Encapsulates all relevant parameters, such as length, diameter, roughness, and flow capacity.
+Key Functions:
+calculateHeadLoss(): Computes the head loss due to friction and other factors within the pipe.
+updateFlowConditions(): Adjusts the flow conditions based on solver outputs.
+storeParameters(): Holds all the relevant parameters and properties of the pipe.
+Component: Results
+Responsibilities:
+Stores the output of the simulation, including all relevant data such as flow rates, velocities, pollutant concentrations, and more.
+Key Functions:
+saveIntermediateResults(): Stores results at each time step for later analysis.
+retrieveFinalResults(): Provides access to the final results of the simulation for reporting and visualization.
